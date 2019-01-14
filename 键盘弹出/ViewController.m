@@ -32,9 +32,8 @@
 }
 #pragma mark -- UITableViewDataSource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 20;
+    return 10;
 }
-
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     MineViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"MineViewCell"];
@@ -128,8 +127,5 @@
     [[NSNotificationCenter defaultCenter] removeObserver:self];
 }
 
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
-    
-}
 
 @end
