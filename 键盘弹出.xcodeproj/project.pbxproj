@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B305028FA198DECA5738D31 /* libPods-键盘弹出.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 368F834DA38D593928333BF0 /* libPods-键盘弹出.a */; };
+		C18B2E2921EC19B1006C5551 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B2E2821EC19B1006C5551 /* AppDelegate.m */; };
+		C18B2E2C21EC19B1006C5551 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B2E2B21EC19B1006C5551 /* ViewController.m */; };
+		C18B2E2F21EC19B1006C5551 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18B2E2D21EC19B1006C5551 /* Main.storyboard */; };
+		C18B2E3121EC19C9006C5551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C18B2E3021EC19C9006C5551 /* Assets.xcassets */; };
+		C18B2E3421EC19C9006C5551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C18B2E3221EC19C9006C5551 /* LaunchScreen.storyboard */; };
+		C18B2E3721EC19C9006C5551 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B2E3621EC19C9006C5551 /* main.m */; };
+		C18B2E4121EC19C9006C5551 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B2E4021EC19C9006C5551 /* ____Tests.m */; };
+		C18B2E4C21EC19C9006C5551 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B2E4B21EC19C9006C5551 /* ____UITests.m */; };
+		C18B2E5C21EC1C01006C5551 /* MineViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B2E5B21EC1C01006C5551 /* MineViewCell.m */; };
+		C18B2E5F21EC1D2E006C5551 /* UIViewController+RTCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = C18B2E5D21EC1D2E006C5551 /* UIViewController+RTCommon.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C18B2E3D21EC19C9006C5551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18B2E1C21EC19B1006C5551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C18B2E2321EC19B1006C5551;
+			remoteInfo = "键盘弹出";
+		};
+		C18B2E4821EC19C9006C5551 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C18B2E1C21EC19B1006C5551 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C18B2E2321EC19B1006C5551;
+			remoteInfo = "键盘弹出";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		368F834DA38D593928333BF0 /* libPods-键盘弹出.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-键盘弹出.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		67A370100AF8089C07DF41C9 /* Pods-键盘弹出.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-键盘弹出.debug.xcconfig"; path = "Pods/Target Support Files/Pods-键盘弹出/Pods-键盘弹出.debug.xcconfig"; sourceTree = "<group>"; };
+		A92005F558D91E56DF138046 /* Pods-键盘弹出.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-键盘弹出.release.xcconfig"; path = "Pods/Target Support Files/Pods-键盘弹出/Pods-键盘弹出.release.xcconfig"; sourceTree = "<group>"; };
+		C18B2E2421EC19B1006C5551 /* 键盘弹出.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "键盘弹出.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18B2E2721EC19B1006C5551 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C18B2E2821EC19B1006C5551 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C18B2E2A21EC19B1006C5551 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C18B2E2B21EC19B1006C5551 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C18B2E2E21EC19B1006C5551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C18B2E3021EC19C9006C5551 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C18B2E3321EC19C9006C5551 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C18B2E3521EC19C9006C5551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18B2E3621EC19C9006C5551 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C18B2E3C21EC19C9006C5551 /* 键盘弹出Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "键盘弹出Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18B2E4021EC19C9006C5551 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		C18B2E4221EC19C9006C5551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18B2E4721EC19C9006C5551 /* 键盘弹出UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "键盘弹出UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C18B2E4B21EC19C9006C5551 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		C18B2E4D21EC19C9006C5551 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C18B2E5921EC1B08006C5551 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C18B2E5A21EC1C01006C5551 /* MineViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineViewCell.h; sourceTree = "<group>"; };
+		C18B2E5B21EC1C01006C5551 /* MineViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineViewCell.m; sourceTree = "<group>"; };
+		C18B2E5D21EC1D2E006C5551 /* UIViewController+RTCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RTCommon.m"; sourceTree = "<group>"; };
+		C18B2E5E21EC1D2E006C5551 /* UIViewController+RTCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RTCommon.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C18B2E2121EC19B1006C5551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B305028FA198DECA5738D31 /* libPods-键盘弹出.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18B2E3921EC19C9006C5551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18B2E4421EC19C9006C5551 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A7479E1E6902768479E9B60 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				368F834DA38D593928333BF0 /* libPods-键盘弹出.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C18B2E1B21EC19B1006C5551 = {
+			isa = PBXGroup;
+			children = (
+				C18B2E2621EC19B1006C5551 /* 键盘弹出 */,
+				C18B2E3F21EC19C9006C5551 /* 键盘弹出Tests */,
+				C18B2E4A21EC19C9006C5551 /* 键盘弹出UITests */,
+				C18B2E2521EC19B1006C5551 /* Products */,
+				DBA321A12FE3A9975E024B31 /* Pods */,
+				6A7479E1E6902768479E9B60 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C18B2E2521EC19B1006C5551 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C18B2E2421EC19B1006C5551 /* 键盘弹出.app */,
+				C18B2E3C21EC19C9006C5551 /* 键盘弹出Tests.xctest */,
+				C18B2E4721EC19C9006C5551 /* 键盘弹出UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C18B2E2621EC19B1006C5551 /* 键盘弹出 */ = {
+			isa = PBXGroup;
+			children = (
+				C18B2E2721EC19B1006C5551 /* AppDelegate.h */,
+				C18B2E2821EC19B1006C5551 /* AppDelegate.m */,
+				C18B2E2A21EC19B1006C5551 /* ViewController.h */,
+				C18B2E2B21EC19B1006C5551 /* ViewController.m */,
+				C18B2E5E21EC1D2E006C5551 /* UIViewController+RTCommon.h */,
+				C18B2E5D21EC1D2E006C5551 /* UIViewController+RTCommon.m */,
+				C18B2E5A21EC1C01006C5551 /* MineViewCell.h */,
+				C18B2E5B21EC1C01006C5551 /* MineViewCell.m */,
+				C18B2E2D21EC19B1006C5551 /* Main.storyboard */,
+				C18B2E3021EC19C9006C5551 /* Assets.xcassets */,
+				C18B2E3221EC19C9006C5551 /* LaunchScreen.storyboard */,
+				C18B2E3521EC19C9006C5551 /* Info.plist */,
+				C18B2E3621EC19C9006C5551 /* main.m */,
+				C18B2E5921EC1B08006C5551 /* PrefixHeader.pch */,
+			);
+			path = "键盘弹出";
+			sourceTree = "<group>";
+		};
+		C18B2E3F21EC19C9006C5551 /* 键盘弹出Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C18B2E4021EC19C9006C5551 /* ____Tests.m */,
+				C18B2E4221EC19C9006C5551 /* Info.plist */,
+			);
+			path = "键盘弹出Tests";
+			sourceTree = "<group>";
+		};
+		C18B2E4A21EC19C9006C5551 /* 键盘弹出UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C18B2E4B21EC19C9006C5551 /* ____UITests.m */,
+				C18B2E4D21EC19C9006C5551 /* Info.plist */,
+			);
+			path = "键盘弹出UITests";
+			sourceTree = "<group>";
+		};
+		DBA321A12FE3A9975E024B31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67A370100AF8089C07DF41C9 /* Pods-键盘弹出.debug.xcconfig */,
+				A92005F558D91E56DF138046 /* Pods-键盘弹出.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C18B2E2321EC19B1006C5551 /* 键盘弹出 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18B2E5021EC19C9006C5551 /* Build configuration list for PBXNativeTarget "键盘弹出" */;
+			buildPhases = (
+				891BF137E4711D848863AB5E /* [CP] Check Pods Manifest.lock */,
+				C18B2E2021EC19B1006C5551 /* Sources */,
+				C18B2E2121EC19B1006C5551 /* Frameworks */,
+				C18B2E2221EC19B1006C5551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "键盘弹出";
+			productName = "键盘弹出";
+			productReference = C18B2E2421EC19B1006C5551 /* 键盘弹出.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C18B2E3B21EC19C9006C5551 /* 键盘弹出Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18B2E5321EC19C9006C5551 /* Build configuration list for PBXNativeTarget "键盘弹出Tests" */;
+			buildPhases = (
+				C18B2E3821EC19C9006C5551 /* Sources */,
+				C18B2E3921EC19C9006C5551 /* Frameworks */,
+				C18B2E3A21EC19C9006C5551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C18B2E3E21EC19C9006C5551 /* PBXTargetDependency */,
+			);
+			name = "键盘弹出Tests";
+			productName = "键盘弹出Tests";
+			productReference = C18B2E3C21EC19C9006C5551 /* 键盘弹出Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C18B2E4621EC19C9006C5551 /* 键盘弹出UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C18B2E5621EC19C9006C5551 /* Build configuration list for PBXNativeTarget "键盘弹出UITests" */;
+			buildPhases = (
+				C18B2E4321EC19C9006C5551 /* Sources */,
+				C18B2E4421EC19C9006C5551 /* Frameworks */,
+				C18B2E4521EC19C9006C5551 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C18B2E4921EC19C9006C5551 /* PBXTargetDependency */,
+			);
+			name = "键盘弹出UITests";
+			productName = "键盘弹出UITests";
+			productReference = C18B2E4721EC19C9006C5551 /* 键盘弹出UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C18B2E1C21EC19B1006C5551 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = isoft;
+				TargetAttributes = {
+					C18B2E2321EC19B1006C5551 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C18B2E3B21EC19C9006C5551 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C18B2E2321EC19B1006C5551;
+					};
+					C18B2E4621EC19C9006C5551 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C18B2E2321EC19B1006C5551;
+					};
+				};
+			};
+			buildConfigurationList = C18B2E1F21EC19B1006C5551 /* Build configuration list for PBXProject "键盘弹出" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C18B2E1B21EC19B1006C5551;
+			productRefGroup = C18B2E2521EC19B1006C5551 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C18B2E2321EC19B1006C5551 /* 键盘弹出 */,
+				C18B2E3B21EC19C9006C5551 /* 键盘弹出Tests */,
+				C18B2E4621EC19C9006C5551 /* 键盘弹出UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C18B2E2221EC19B1006C5551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18B2E3421EC19C9006C5551 /* LaunchScreen.storyboard in Resources */,
+				C18B2E3121EC19C9006C5551 /* Assets.xcassets in Resources */,
+				C18B2E2F21EC19B1006C5551 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18B2E3A21EC19C9006C5551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18B2E4521EC19C9006C5551 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		891BF137E4711D848863AB5E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-键盘弹出-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C18B2E2021EC19B1006C5551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18B2E2C21EC19B1006C5551 /* ViewController.m in Sources */,
+				C18B2E5C21EC1C01006C5551 /* MineViewCell.m in Sources */,
+				C18B2E3721EC19C9006C5551 /* main.m in Sources */,
+				C18B2E5F21EC1D2E006C5551 /* UIViewController+RTCommon.m in Sources */,
+				C18B2E2921EC19B1006C5551 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18B2E3821EC19C9006C5551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18B2E4121EC19C9006C5551 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C18B2E4321EC19C9006C5551 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C18B2E4C21EC19C9006C5551 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C18B2E3E21EC19C9006C5551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C18B2E2321EC19B1006C5551 /* 键盘弹出 */;
+			targetProxy = C18B2E3D21EC19C9006C5551 /* PBXContainerItemProxy */;
+		};
+		C18B2E4921EC19C9006C5551 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C18B2E2321EC19B1006C5551 /* 键盘弹出 */;
+			targetProxy = C18B2E4821EC19C9006C5551 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C18B2E2D21EC19B1006C5551 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18B2E2E21EC19B1006C5551 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C18B2E3221EC19C9006C5551 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C18B2E3321EC19C9006C5551 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C18B2E4E21EC19C9006C5551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C18B2E4F21EC19C9006C5551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C18B2E5121EC19C9006C5551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A370100AF8089C07DF41C9 /* Pods-键盘弹出.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$SRCROOT/键盘弹出/PrefixHeader.pch";
+				INFOPLIST_FILE = "键盘弹出/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isoftstone.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C18B2E5221EC19C9006C5551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A92005F558D91E56DF138046 /* Pods-键盘弹出.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$SRCROOT/键盘弹出/PrefixHeader.pch";
+				INFOPLIST_FILE = "键盘弹出/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isoftstone.----";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C18B2E5421EC19C9006C5551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "键盘弹出Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isoftstone.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/键盘弹出.app/键盘弹出";
+			};
+			name = Debug;
+		};
+		C18B2E5521EC19C9006C5551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "键盘弹出Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isoftstone.----Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/键盘弹出.app/键盘弹出";
+			};
+			name = Release;
+		};
+		C18B2E5721EC19C9006C5551 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "键盘弹出UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isoftstone.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "键盘弹出";
+			};
+			name = Debug;
+		};
+		C18B2E5821EC19C9006C5551 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "键盘弹出UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.isoftstone.----UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "键盘弹出";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C18B2E1F21EC19B1006C5551 /* Build configuration list for PBXProject "键盘弹出" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18B2E4E21EC19C9006C5551 /* Debug */,
+				C18B2E4F21EC19C9006C5551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18B2E5021EC19C9006C5551 /* Build configuration list for PBXNativeTarget "键盘弹出" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18B2E5121EC19C9006C5551 /* Debug */,
+				C18B2E5221EC19C9006C5551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18B2E5321EC19C9006C5551 /* Build configuration list for PBXNativeTarget "键盘弹出Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18B2E5421EC19C9006C5551 /* Debug */,
+				C18B2E5521EC19C9006C5551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C18B2E5621EC19C9006C5551 /* Build configuration list for PBXNativeTarget "键盘弹出UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C18B2E5721EC19C9006C5551 /* Debug */,
+				C18B2E5821EC19C9006C5551 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C18B2E1C21EC19B1006C5551 /* Project object */;
+}
